@@ -31,7 +31,7 @@ void AMyActor::BeginPlay()
 	}
 
 	// MyStaticMesh->AddForce(InitForce, "NAME_None", bAccelChange);
-	// MyStaticMesh->AddTorque(InitTorque, "NAME_None", bAccelChange);
+	// MyStaticMesh->AddTorqueInRadians(InitTorque, "NAME_None", bAccelChange);
 }
 
 void AMyActor::Tick(float DeltaTime)
